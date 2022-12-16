@@ -37,6 +37,8 @@ or window sizing if this becomes an issue for you.
 If your computer is blazing fast, you may want to add a one-second
 + 0.5*rand delay between job clicks to ensure you're not flagged
 for overloading server requests.
+There is an arbitrary ~1000 job limit in the search sidebar, 
+which is why the "hit rate" is important to consider.
 
 A reminder that web scraping publicly accessible information is legal
 but LinkedIn tries to make a profit off data, so they make this as
